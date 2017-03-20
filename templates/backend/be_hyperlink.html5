@@ -1,0 +1,5 @@
+<a href="<?= $this->url ?>"
+   <?php if ($this->target): ?>target="<?= $this->target ?>"<?php endif; ?>
+   <?php if ($this->linkClass): ?>class="<?= $this->linkClass ?>"<?php endif; ?>>
+    <?= $this->text ?>
+</a>
