@@ -1,9 +1,9 @@
 {
-    "name": "heimrichhannot/contao-be_explanation",
-    "description":"This module offers a simple backend explanation form field (inputType).",
-    "keywords":["contao", "backend", "explanation", "field", "developer"],
+    "name": "heimrichhannot/contao-be_hyperlink",
+    "description":"This module offers a simple backend hyperlink form field (text link or button).",
+    "keywords":["contao", "backend", "hyperlink", "field", "developer"],
     "type": "contao-module",
-    "homepage":"https://github.com/heimrichhannot/contao-be_explanation",
+    "homepage":"https://github.com/heimrichhannot/contao-be_hyperlink",
     "license":"LGPL-3.0+",
     "authors":[
         {
@@ -14,7 +14,7 @@
         }
     ],
     "support":{
-        "issues":"https://github.com/heimrichhannot/contao-be_explanation/issues"
+        "issues":"https://github.com/heimrichhannot/contao-be_hyperlink/issues"
     },
     "require": {
         "contao/core": ">=3.0,<4-dev"
@@ -25,7 +25,7 @@
     "extra": {
         "contao": {
             "sources": {
-                "": "system/modules/be_explanation"
+                "": "system/modules/be_hyperlink"
             }
         }
     }
