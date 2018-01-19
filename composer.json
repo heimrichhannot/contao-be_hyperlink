@@ -4,7 +4,7 @@
     "keywords":["contao", "backend", "hyperlink", "field", "developer"],
     "type": "contao-module",
     "homepage":"https://github.com/heimrichhannot/contao-be_hyperlink",
-    "license":"LGPL-3.0+",
+    "license":"LGPL-3.0-or-later",
     "authors":[
         {
             "name":"Heimrich & Hannot",
