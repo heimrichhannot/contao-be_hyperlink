@@ -1,5 +1,4 @@
 <?php
-<?php
 
 /*
  * Copyright (c) 2017 Heimrich & Hannot GmbH
@@ -10,6 +9,7 @@
 error_reporting(E_ALL);
 define('TL_MODE', 'FE'); // required by contao 3
 define('UNIT_TESTING', true);
+define('TL_ROOT', __DIR__.'/../src');
 
 $include = function ($file) {
     return file_exists($file) ? include $file : false;

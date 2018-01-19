@@ -22,6 +22,7 @@ class HyperlinkField extends Widget
 
     public function generate()
     {
+
         $objTemplate = new BackendTemplate('be_hyperlink');
         $objTemplate->setData($this->arrConfiguration);
 
