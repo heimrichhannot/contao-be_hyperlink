@@ -10,15 +10,19 @@
  * @license http://www.gnu.org/licences/lgpl-3.0.html LGPL
  */
 
-namespace HeimrichHannot\BeHyperlink;
+namespace HeimrichHannot\BeHyperlinkBundle\Widget;
 
-class HyperlinkField extends \Widget
+use Contao\BackendTemplate;
+use Contao\System;
+use Contao\Widget;
+
+class HyperlinkField extends Widget
 {
     protected $strTemplate = 'be_widget';
 
     public function generate()
     {
-        $objTemplate = new \BackendTemplate('be_hyperlink');
+        $objTemplate = new BackendTemplate('be_hyperlink');
         $objTemplate->setData($this->arrConfiguration);
 
         // prepare url
@@ -34,7 +38,7 @@ class HyperlinkField extends \Widget
             {
                 $arrCallback = $this->arrConfiguration['url'];
 
-                $objCallback = \System::importStatic($arrCallback[0]);
+                $objCallback = System::importStatic($arrCallback[0]);
 
                 $strUrl = $objCallback->{$arrCallback[1]}($this->objDca, $this);
             }

@@ -1,6 +1,6 @@
-# Backend Hyperlink
+# Backend Hyperlink Bundle
 
-This module offers a simple backend hyperlink form field (text link or button).
+This bundle offers a simple backend hyperlink form field (text link or button).
 
 ## Technical instructions
 
