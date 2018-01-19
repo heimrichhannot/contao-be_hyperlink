@@ -2,6 +2,8 @@
 
 This module offers a simple backend hyperlink form field (text link or button).
 
+> For Contao 4 compability check out [version 2](https://github.com/heimrichhannot/contao-be_hyperlink_bundle/tree/master).
+
 ## Technical instructions
 
 Just add the field to some of your data container arrays as follows:
