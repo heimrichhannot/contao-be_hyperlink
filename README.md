@@ -2,6 +2,8 @@
 
 This bundle offers a simple backend hyperlink form field (text link or button).
 
+> For Contao 3 compability check out the [contao-3 branch](https://github.com/heimrichhannot/contao-be_hyperlink_bundle/tree/contao-3).
+
 ## Technical instructions
 
 Just add the field to some of your data container arrays as follows:
