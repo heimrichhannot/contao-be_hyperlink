@@ -14,7 +14,6 @@ namespace HeimrichHannot\BeHyperlinkBundle\ContaoManager;
 
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
-use Contao\ManagerPlugin\Bundle\Config\ConfigInterface;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
 use HeimrichHannot\BeHyperlinkBundle\HeimrichHannotContaoBeHyperlinkBundle;
 
