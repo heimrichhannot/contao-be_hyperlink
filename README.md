@@ -3,7 +3,7 @@
 [![Latest Stable Version](https://poser.pugx.org/heimrichhannot/contao-be_hyperlink-bundle/v/stable)](https://packagist.org/packages/heimrichhannot/contao-be_hyperlink-bundle)
 [![Total Downloads](https://poser.pugx.org/heimrichhannot/contao-be_hyperlink-bundle/downloads)](https://packagist.org/packages/heimrichhannot/contao-be_hyperlink-bundle)
 [![Travis](https://img.shields.io/travis/heimrichhannot/contao-be_hyperlink-bundle.svg)](https://travis-ci.org/heimrichhannot/contao-be_hyperlink-bundle)
-[![Coveralls github](https://img.shields.io/coveralls/github/heimrichhannot/contao-be_hyperlink_bundle.svg)](https://coveralls.io/github/heimrichhannot/contao-be_hyperlink-bundle)
+[![Coveralls github](https://img.shields.io/coveralls/github/heimrichhannot/contao-be_hyperlink-bundle.svg)](https://coveralls.io/github/heimrichhannot/contao-be_hyperlink-bundle)
 
 This bundle offers a simple backend hyperlink form field (text link or button).
 
