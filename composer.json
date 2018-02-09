@@ -14,7 +14,7 @@
         }
     ],
     "support":{
-        "issues":"https://github.com/heimrichhannot/contao-be_hyperlink/issues"
+        "issues":"https://github.com/heimrichhannot/contao-be_hyperlink-bundle/issues"
     },
     "require": {
         "contao/core-bundle": "~4.1"
@@ -42,7 +42,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "HeimrichHannot\\FilterBundle\\Test\\": "tests/"
+            "HeimrichHannot\\BeHyperlinkBundle\\Tests\\": "tests/"
         }
     },
     "extra": {
