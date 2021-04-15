@@ -22,18 +22,17 @@ class HyperlinkField extends Widget
 
     public function generate()
     {
-
-        $objTemplate = new BackendTemplate('be_hyperlink');
-        $objTemplate->setData($this->arrConfiguration);
+        $template = new BackendTemplate('be_hyperlink');
+        $template->setData($this->arrConfiguration);
 
         // prepare url
-        $strUrl = '#';
+        $url = '#';
 
         if (isset($this->arrConfiguration['url']))
         {
             if (is_string($this->arrConfiguration['url']))
             {
-                $strUrl = $this->arrConfiguration['url'];
+                $url = $this->arrConfiguration['url'];
             }
             elseif (is_array($this->arrConfiguration['url']))
             {
@@ -41,16 +40,16 @@ class HyperlinkField extends Widget
 
                 $objCallback = System::importStatic($arrCallback[0]);
 
-                $strUrl = $objCallback->{$arrCallback[1]}($this->objDca, $this);
+                $url = $objCallback->{$arrCallback[1]}($this->objDca, $this);
             }
             elseif (is_callable($this->arrConfiguration['url']))
             {
-                $strUrl = $this->arrConfiguration['url']($this, $this->objDca);
+                $url = $this->arrConfiguration['url']($this->objDca, $this);
             }
         }
 
-        $objTemplate->url = $strUrl;
+        $template->url = $url;
 
-        return $objTemplate->parse();
+        return $template->parse();
     }
 }

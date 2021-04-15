@@ -24,7 +24,6 @@ $GLOBALS['TL_DCA']['tl_*']['fields']['myHyperlink'] = array
     'label'     => &$GLOBALS['TL_LANG']['tl_*']['myHyperlink'],
     'inputType' => 'hyperlink',
     'eval'      => array(
-        'hideLabel' => true,
         'text' => &$GLOBALS['TL_LANG']['tl_*']['myHyperlinkText'], // string
         'linkClass'    => 'tl_submit', // use this for contao's button styling
         'tl_class' => 'long',
